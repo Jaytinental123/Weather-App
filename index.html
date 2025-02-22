@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="weather-box">
+        <div class="top">
+            <h1>
+                Enter your City
+            </h1>
+
+            <input type="text" name="city-name" id="city-name" placeholder="Enter your city">
+            <button id="get"> Get Weather</button>
+        </div>
+        <div class="weather-result" id="weather-result">
+            <div class="weather-img">
+                <img id="img-weather" src="./Images/Big/Moon cloud mid rain.png" alt="">
+            </div>
+            <div class="city-result">
+                <h1 id="name-of-city"> Lagos</h1>
+                <!-- <p> Chance of rain: <span id="rain-chance"> 0</span></p> -->
+            </div>
+            <div class="others" id="others">
+                <div class="others-box">
+                    <p> Temperature</p>
+                    <h4 id="temp"> 0</h4>
+                </div>
+                <div class="others-box">
+                    <p> Humidity</p>
+                    <h4 id="humidity"> 0</h4>
+                </div>
+                <div class="others-box">
+                    <p> Chance of Rain</p>
+                    <h4 id="rain-chance"> 0</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
