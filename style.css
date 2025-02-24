@@ -228,11 +228,11 @@ button {
         flex-direction: row;
         align-items: stretch;
         justify-content: space-between;
-        gap: 1rem;
+        gap: .5rem;
     }
 
     .others-box {
-        width: 100%;
+        width: 33%;
         height: auto;
         display: flex;
         flex-direction: column;
