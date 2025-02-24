@@ -41,10 +41,26 @@ body {
     gap: 1.5rem;
 }
 
+.top-text{
+    width: 100%;
+    height: auto;
+    gap: .5rem;
+    flex-direction: column;
+    display: flex;
+}
+
 .top h1 {
     font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
+}
+
+.top p{
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 200;
+    color: #b9b9b9;
+   
 }
 
 input {
@@ -81,6 +97,9 @@ button {
     border-radius: .5rem;
     border: 1px solid #212D3C;
     padding: 1rem;
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 
 }
 

@@ -33,6 +33,10 @@ button.addEventListener("click", function () {
             nameOfCity.textContent = cityName.value;
 
             weatherResult.style.display = "flex";
+            setTimeout(() => {
+                weatherResult.style.opacity = "1";
+                weatherResult.style.transform = "translateY(0)";
+            }, 10);
            
             let rainVolume = weather.rain ? weather.rain["1h"] || 0 : 0;
 
